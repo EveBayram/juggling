@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Question page
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="/url/of/previous/page">Back</a>
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+        Sorry you can't get a juggling licence. Keep practicing.
+      </h1>
+
+      <p>You have to be able to juggle at least 3 balls before you are eligible for a UK juggling licence.</p>
+
+      <p>You can <a href="/url/of/onward/page">find out more about other circus trick licences</a>.</p>
+
+    </div>
+  </div>
+
+{% endblock %}
